@@ -208,10 +208,6 @@ main section {
     align-items: center;
 }
 
-.deal-content {
-    /* margin-bottom: 50px; */
-}
-
 .btn-2 {
     padding: 15px 35px;
     text-align: center;
@@ -238,7 +234,7 @@ main section {
     align-items: center;
 }
 
-/* insta styles here */
+/* instagram styles here */
 
 .instagram-container {
     display: flex;
@@ -257,7 +253,7 @@ main section {
     align-items: center;
 }
 
-.insta-description {
+.instagram-description {
     text-align: center;
     align-items: center;
     margin-top: 20px;
