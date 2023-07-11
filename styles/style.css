@@ -116,6 +116,7 @@ main section {
     margin-left: 100px;
     margin-bottom: 100px;
     text-align: center;
+    gap: 20px;
 }
 
 #pink {
@@ -174,10 +175,14 @@ main section {
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     padding: 30px 30px;
     text-align: center;
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
     /* width: 1300px;
     height: 620px; */
 }
@@ -228,3 +233,87 @@ main section {
     justify-content: space-around;
     align-items: center;
 }
+
+/* insta styles here */
+
+.instagram-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.instagram-title {
+    text-align: center;
+    align-items: center;
+}
+
+.insta-description {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* latest deal styles */
+.latest-deals {
+    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.latest-container {
+    text-align: center;
+    align-items: center;
+
+}
+
+.latest-title {
+    margin-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#area{
+    width: 700px;
+    height: 45px;
+    border: 0;
+    margin-top: 10px;
+}
+.btn-3{
+    /* padding: 15px 35px; */
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+
+  
